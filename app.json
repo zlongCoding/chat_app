@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/weChat/weChat",
+    "pages/contacts/contacts",
+    "pages/my/my",
+    "pages/find/find"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "小说",
+    "navigationBarTextStyle": "light"
+  },
+  "tabBar": {
+    "color": "#cdcdcd",
+    "selectedColor": "#1afa29",
+    "borderStyle": "white",
+    "backgroundColor": "#000",
+    "list": [
+      {
+        "pagePath": "pages/weChat/weChat",
+        "text": "聊天",
+        "iconPath": "img/chat.png",
+        "selectedIconPath": "img/select_chat.png"
+      },
+      {
+        "pagePath": "pages/contacts/contacts",
+        "text": "通讯录",
+        "iconPath": "img/contacts.png",
+        "selectedIconPath": "img/select_contacts.png"
+      },
+      {
+        "pagePath": "pages/find/find",
+        "text": "发现",
+        "iconPath": "img/find.png",
+        "selectedIconPath": "img/select_find.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "img/my.png",
+        "selectedIconPath": "img/select_my.png"
+      }
+    ]
+  },
+  "debug": true
+}
